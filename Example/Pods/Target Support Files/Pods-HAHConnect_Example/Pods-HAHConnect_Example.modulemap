@@ -1,0 +1,6 @@
+framework module Pods_HAHConnect_Example {
+  umbrella header "Pods-HAHConnect_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

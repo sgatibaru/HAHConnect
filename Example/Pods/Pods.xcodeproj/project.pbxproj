@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E19DCF81FF9BA655FA49E610371A6AD /* HAHConnect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0145E5BA9C7FFBD410907AD69937BE66 /* HAHConnect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19C4D8D05DC3916C774AF28D022D7346 /* Pods-HAHConnect_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B037075216145AB1D8B3D23036259EC9 /* Pods-HAHConnect_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C6D4E259E75BD1683E029DE8D1631F6 /* Pods-HAHConnect_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3777DD913BF3ED44E5C1FE4F2A32346A /* Pods-HAHConnect_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31B43D83D86D7E743F864E03C485BBB1 /* Pods-HAHConnect_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A89FFCBDC23EA2B1C5230E29258EFE /* Pods-HAHConnect_Tests-dummy.m */; };
+		4D4BECC61E1EA3D291BE794798051674 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB61D6DCCBA151C95759306F1E2DCA /* ReplaceMe.swift */; };
+		4FA1D675F26C730AB6A83CBF68EEFF8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		5D83CA23FCAD3C505BDC2BCC381637C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		6C92E2153261BC145268897C58B92259 /* Pods-HAHConnect_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 637C62D89113C285CAE42A399D842F9D /* Pods-HAHConnect_Example-dummy.m */; };
+		93C3A3470A41A9452C6D35BF68D46DCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9FB80D977B3F7469F8DF69F128918F1A /* HAHConnect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1D44FD149B92F250FCDBA4FB147E0A /* HAHConnect-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EF7D89AEC7A1C01E7B1A0A41E0A478B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 227E1F57BD2F16B2B4CC8C008813D3F8;
+			remoteInfo = "Pods-HAHConnect_Example";
+		};
+		9ADA3F8D71C9D3C25A55F3ABBDE6505E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62DECE782F7B37A35D57A11C775BE189;
+			remoteInfo = HAHConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0145E5BA9C7FFBD410907AD69937BE66 /* HAHConnect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HAHConnect-umbrella.h"; sourceTree = "<group>"; };
+		0602F0EE0C79D74881868C488A11EC87 /* Pods-HAHConnect_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HAHConnect_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		07B3A01CA11595CDA2415987995EA8C7 /* HAHConnect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HAHConnect.modulemap; sourceTree = "<group>"; };
+		0A409404C86466D1F2326482A85DC9F0 /* Pods-HAHConnect_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HAHConnect_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		273EBA9F8334E5B3384C0CA8132F3CDD /* Pods-HAHConnect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HAHConnect_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		33A89FFCBDC23EA2B1C5230E29258EFE /* Pods-HAHConnect_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HAHConnect_Tests-dummy.m"; sourceTree = "<group>"; };
+		356A2C8F8B21B00F3A40C5761C93E192 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3777DD913BF3ED44E5C1FE4F2A32346A /* Pods-HAHConnect_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HAHConnect_Example-umbrella.h"; sourceTree = "<group>"; };
+		4D5A206C212347A6C00A2AAB24152F43 /* Pods-HAHConnect_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HAHConnect_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EF3E205DD3231B68FC89B99E68C9BF3 /* HAHConnect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HAHConnect.xcconfig; sourceTree = "<group>"; };
+		6130C443FBF7F956C3D8C29C8EAD2166 /* Pods-HAHConnect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HAHConnect_Example.release.xcconfig"; sourceTree = "<group>"; };
+		62AB61D6DCCBA151C95759306F1E2DCA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HAHConnect/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		637C62D89113C285CAE42A399D842F9D /* Pods-HAHConnect_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HAHConnect_Example-dummy.m"; sourceTree = "<group>"; };
+		839916382E8DE12AA4BDB4B8BAE8C6C8 /* Pods-HAHConnect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HAHConnect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		92DCF532719528D5E06FA377E17F0DFD /* HAHConnect.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HAHConnect.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9720E573181AF8FDCDCCBB334F9EAC12 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9824EBE555EC09F3FD72BE2DCC652E17 /* HAHConnect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HAHConnect-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2D1B93C32E96165336033502061E3D6 /* Pods-HAHConnect_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HAHConnect_Tests-Info.plist"; sourceTree = "<group>"; };
+		A70F733C413FFC8E8672206A6C5FC22F /* Pods_HAHConnect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HAHConnect_Tests.framework; path = "Pods-HAHConnect_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC2A187ACEB56F6F3361B135EDF8B7E /* HAHConnect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HAHConnect-Info.plist"; sourceTree = "<group>"; };
+		B037075216145AB1D8B3D23036259EC9 /* Pods-HAHConnect_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HAHConnect_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BB1D44FD149B92F250FCDBA4FB147E0A /* HAHConnect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HAHConnect-dummy.m"; sourceTree = "<group>"; };
+		BC8F9B320ADA741D8A265AFB534E0B6C /* Pods-HAHConnect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HAHConnect_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C70E8BFA3AAE25A49E38D52352A2D5A6 /* Pods-HAHConnect_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HAHConnect_Tests.modulemap"; sourceTree = "<group>"; };
+		C830071A1888E8A4FF8C42F5089878FA /* Pods-HAHConnect_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HAHConnect_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2EFA9518B4B242E935D505B2AA27368 /* HAHConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HAHConnect.framework; path = HAHConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E7955F8724908ED4A694E77AE0FE73 /* Pods-HAHConnect_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HAHConnect_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA031DB88448A5BE3C77DD035F80FA35 /* Pods-HAHConnect_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HAHConnect_Example.modulemap"; sourceTree = "<group>"; };
+		DBA18B6218260D6A5FE619BB8986797B /* Pods-HAHConnect_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HAHConnect_Example-Info.plist"; sourceTree = "<group>"; };
+		FDF2A025E86301247885A6BB26B72353 /* Pods_HAHConnect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HAHConnect_Example.framework; path = "Pods-HAHConnect_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11FA301EF23878B84874ECD6E475F47E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D83CA23FCAD3C505BDC2BCC381637C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82998193660559A2CCCBE96AF388575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA1D675F26C730AB6A83CBF68EEFF8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF29BFF92959595D6E0EDBE5529D17C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C3A3470A41A9452C6D35BF68D46DCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		215F0D7C91CD9C1CAC169E8023414B2B /* Pods-HAHConnect_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DA031DB88448A5BE3C77DD035F80FA35 /* Pods-HAHConnect_Example.modulemap */,
+				4D5A206C212347A6C00A2AAB24152F43 /* Pods-HAHConnect_Example-acknowledgements.markdown */,
+				0A409404C86466D1F2326482A85DC9F0 /* Pods-HAHConnect_Example-acknowledgements.plist */,
+				637C62D89113C285CAE42A399D842F9D /* Pods-HAHConnect_Example-dummy.m */,
+				C830071A1888E8A4FF8C42F5089878FA /* Pods-HAHConnect_Example-frameworks.sh */,
+				DBA18B6218260D6A5FE619BB8986797B /* Pods-HAHConnect_Example-Info.plist */,
+				3777DD913BF3ED44E5C1FE4F2A32346A /* Pods-HAHConnect_Example-umbrella.h */,
+				273EBA9F8334E5B3384C0CA8132F3CDD /* Pods-HAHConnect_Example.debug.xcconfig */,
+				6130C443FBF7F956C3D8C29C8EAD2166 /* Pods-HAHConnect_Example.release.xcconfig */,
+			);
+			name = "Pods-HAHConnect_Example";
+			path = "Target Support Files/Pods-HAHConnect_Example";
+			sourceTree = "<group>";
+		};
+		2953FFC3B491E207BC6CB0DBD80724BF /* HAHConnect */ = {
+			isa = PBXGroup;
+			children = (
+				62AB61D6DCCBA151C95759306F1E2DCA /* ReplaceMe.swift */,
+				E2B0046977FAE263ACC60CB3D8453ED7 /* Pod */,
+				F9F7D8A2EDCDF0273FDD10E1AE99263B /* Support Files */,
+			);
+			name = HAHConnect;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2D390FBB31D7DEF55A8BF3AE694351E8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2953FFC3B491E207BC6CB0DBD80724BF /* HAHConnect */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		54564110BEB5D8E2CBF44FD4EE608BF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2EFA9518B4B242E935D505B2AA27368 /* HAHConnect.framework */,
+				FDF2A025E86301247885A6BB26B72353 /* Pods_HAHConnect_Example.framework */,
+				A70F733C413FFC8E8672206A6C5FC22F /* Pods_HAHConnect_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FED3CF6EA3C272B87CAB96D140881B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				215F0D7C91CD9C1CAC169E8023414B2B /* Pods-HAHConnect_Example */,
+				A2621E91B5F25648D5AF0A3E422991BB /* Pods-HAHConnect_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A2621E91B5F25648D5AF0A3E422991BB /* Pods-HAHConnect_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C70E8BFA3AAE25A49E38D52352A2D5A6 /* Pods-HAHConnect_Tests.modulemap */,
+				0602F0EE0C79D74881868C488A11EC87 /* Pods-HAHConnect_Tests-acknowledgements.markdown */,
+				D7E7955F8724908ED4A694E77AE0FE73 /* Pods-HAHConnect_Tests-acknowledgements.plist */,
+				33A89FFCBDC23EA2B1C5230E29258EFE /* Pods-HAHConnect_Tests-dummy.m */,
+				A2D1B93C32E96165336033502061E3D6 /* Pods-HAHConnect_Tests-Info.plist */,
+				B037075216145AB1D8B3D23036259EC9 /* Pods-HAHConnect_Tests-umbrella.h */,
+				839916382E8DE12AA4BDB4B8BAE8C6C8 /* Pods-HAHConnect_Tests.debug.xcconfig */,
+				BC8F9B320ADA741D8A265AFB534E0B6C /* Pods-HAHConnect_Tests.release.xcconfig */,
+			);
+			name = "Pods-HAHConnect_Tests";
+			path = "Target Support Files/Pods-HAHConnect_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2D390FBB31D7DEF55A8BF3AE694351E8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				54564110BEB5D8E2CBF44FD4EE608BF8 /* Products */,
+				5FED3CF6EA3C272B87CAB96D140881B1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2B0046977FAE263ACC60CB3D8453ED7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				92DCF532719528D5E06FA377E17F0DFD /* HAHConnect.podspec */,
+				356A2C8F8B21B00F3A40C5761C93E192 /* LICENSE */,
+				9720E573181AF8FDCDCCBB334F9EAC12 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F9F7D8A2EDCDF0273FDD10E1AE99263B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07B3A01CA11595CDA2415987995EA8C7 /* HAHConnect.modulemap */,
+				4EF3E205DD3231B68FC89B99E68C9BF3 /* HAHConnect.xcconfig */,
+				BB1D44FD149B92F250FCDBA4FB147E0A /* HAHConnect-dummy.m */,
+				ADC2A187ACEB56F6F3361B135EDF8B7E /* HAHConnect-Info.plist */,
+				9824EBE555EC09F3FD72BE2DCC652E17 /* HAHConnect-prefix.pch */,
+				0145E5BA9C7FFBD410907AD69937BE66 /* HAHConnect-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HAHConnect";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0807932634A859C8D557E3F3E0D2697B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C4D8D05DC3916C774AF28D022D7346 /* Pods-HAHConnect_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C32CB68E473222150303D1CBE4B0A75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6D4E259E75BD1683E029DE8D1631F6 /* Pods-HAHConnect_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962B485F575B27B7AA9D9748C2A092A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E19DCF81FF9BA655FA49E610371A6AD /* HAHConnect-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		227E1F57BD2F16B2B4CC8C008813D3F8 /* Pods-HAHConnect_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F97F3DA05374820BCAC0C713B252068 /* Build configuration list for PBXNativeTarget "Pods-HAHConnect_Example" */;
+			buildPhases = (
+				0C32CB68E473222150303D1CBE4B0A75 /* Headers */,
+				5B835A529DD50396D673345418E4E168 /* Sources */,
+				11FA301EF23878B84874ECD6E475F47E /* Frameworks */,
+				EF11C563A6A9E1F4AA8F58F1062E5013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C5DD53CD16BEB5EEC510D74C171D821 /* PBXTargetDependency */,
+			);
+			name = "Pods-HAHConnect_Example";
+			productName = "Pods-HAHConnect_Example";
+			productReference = FDF2A025E86301247885A6BB26B72353 /* Pods_HAHConnect_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62DECE782F7B37A35D57A11C775BE189 /* HAHConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E551C0E1BE72FADFE0E69D3E63A188B8 /* Build configuration list for PBXNativeTarget "HAHConnect" */;
+			buildPhases = (
+				962B485F575B27B7AA9D9748C2A092A1 /* Headers */,
+				CAD89589E52B1945B036F3C592E0C050 /* Sources */,
+				F82998193660559A2CCCBE96AF388575 /* Frameworks */,
+				E19AE772548B46086A437081BC28613E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HAHConnect;
+			productName = HAHConnect;
+			productReference = D2EFA9518B4B242E935D505B2AA27368 /* HAHConnect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70CB896B3527D9A651E4C4BDC6204C15 /* Pods-HAHConnect_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEC15569A66DE6AF5CD3A08E324DF5F /* Build configuration list for PBXNativeTarget "Pods-HAHConnect_Tests" */;
+			buildPhases = (
+				0807932634A859C8D557E3F3E0D2697B /* Headers */,
+				E924C9A5D50D227156FE1FBBE0FD36DA /* Sources */,
+				FF29BFF92959595D6E0EDBE5529D17C7 /* Frameworks */,
+				047E5216120D3D40F2205D5E6D6A50DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93C43DB876BDA75BAA09A269E604DC2E /* PBXTargetDependency */,
+			);
+			name = "Pods-HAHConnect_Tests";
+			productName = "Pods-HAHConnect_Tests";
+			productReference = A70F733C413FFC8E8672206A6C5FC22F /* Pods_HAHConnect_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 54564110BEB5D8E2CBF44FD4EE608BF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62DECE782F7B37A35D57A11C775BE189 /* HAHConnect */,
+				227E1F57BD2F16B2B4CC8C008813D3F8 /* Pods-HAHConnect_Example */,
+				70CB896B3527D9A651E4C4BDC6204C15 /* Pods-HAHConnect_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047E5216120D3D40F2205D5E6D6A50DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19AE772548B46086A437081BC28613E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF11C563A6A9E1F4AA8F58F1062E5013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B835A529DD50396D673345418E4E168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C92E2153261BC145268897C58B92259 /* Pods-HAHConnect_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD89589E52B1945B036F3C592E0C050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB80D977B3F7469F8DF69F128918F1A /* HAHConnect-dummy.m in Sources */,
+				4D4BECC61E1EA3D291BE794798051674 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E924C9A5D50D227156FE1FBBE0FD36DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B43D83D86D7E743F864E03C485BBB1 /* Pods-HAHConnect_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C5DD53CD16BEB5EEC510D74C171D821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HAHConnect;
+			target = 62DECE782F7B37A35D57A11C775BE189 /* HAHConnect */;
+			targetProxy = 9ADA3F8D71C9D3C25A55F3ABBDE6505E /* PBXContainerItemProxy */;
+		};
+		93C43DB876BDA75BAA09A269E604DC2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HAHConnect_Example";
+			target = 227E1F57BD2F16B2B4CC8C008813D3F8 /* Pods-HAHConnect_Example */;
+			targetProxy = 5EF7D89AEC7A1C01E7B1A0A41E0A478B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2AB2EA9F38DCA8BC7ACC312D33F859D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273EBA9F8334E5B3384C0CA8132F3CDD /* Pods-HAHConnect_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HAHConnect_Example/Pods-HAHConnect_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HAHConnect_Example/Pods-HAHConnect_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3332572B98B739E0D68C0A6E25A62574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 839916382E8DE12AA4BDB4B8BAE8C6C8 /* Pods-HAHConnect_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HAHConnect_Tests/Pods-HAHConnect_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HAHConnect_Tests/Pods-HAHConnect_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54F2E2DC8DB413B784B4652B98671EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC8F9B320ADA741D8A265AFB534E0B6C /* Pods-HAHConnect_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HAHConnect_Tests/Pods-HAHConnect_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HAHConnect_Tests/Pods-HAHConnect_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D0A912658911E620CF3A9B4DD2182F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF3E205DD3231B68FC89B99E68C9BF3 /* HAHConnect.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HAHConnect/HAHConnect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HAHConnect/HAHConnect-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HAHConnect/HAHConnect.modulemap";
+				PRODUCT_MODULE_NAME = HAHConnect;
+				PRODUCT_NAME = HAHConnect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7A5EB9597943A3A1C2BBF230B5EDB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF3E205DD3231B68FC89B99E68C9BF3 /* HAHConnect.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HAHConnect/HAHConnect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HAHConnect/HAHConnect-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HAHConnect/HAHConnect.modulemap";
+				PRODUCT_MODULE_NAME = HAHConnect;
+				PRODUCT_NAME = HAHConnect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFAA46C25F67BFC75083B683723D4503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6130C443FBF7F956C3D8C29C8EAD2166 /* Pods-HAHConnect_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HAHConnect_Example/Pods-HAHConnect_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HAHConnect_Example/Pods-HAHConnect_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F97F3DA05374820BCAC0C713B252068 /* Build configuration list for PBXNativeTarget "Pods-HAHConnect_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB2EA9F38DCA8BC7ACC312D33F859D5 /* Debug */,
+				EFAA46C25F67BFC75083B683723D4503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AEC15569A66DE6AF5CD3A08E324DF5F /* Build configuration list for PBXNativeTarget "Pods-HAHConnect_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3332572B98B739E0D68C0A6E25A62574 /* Debug */,
+				54F2E2DC8DB413B784B4652B98671EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E551C0E1BE72FADFE0E69D3E63A188B8 /* Build configuration list for PBXNativeTarget "HAHConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7A5EB9597943A3A1C2BBF230B5EDB33 /* Debug */,
+				D0A912658911E620CF3A9B4DD2182F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - HAHConnect (0.1.0)
+
+DEPENDENCIES:
+  - HAHConnect (from `../`)
+
+EXTERNAL SOURCES:
+  HAHConnect:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HAHConnect: 0316e2e0ec4868ed5047dee79d0fb08115a99c14
+
+PODFILE CHECKSUM: 9abd93c35c86d1ead26f17408a3351a4d029cc30
+
+COCOAPODS: 1.6.0
