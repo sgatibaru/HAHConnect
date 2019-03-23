@@ -64,7 +64,7 @@ HAHConnect is available on CocoaPods. Simply add the following line to your podf
 
 platform :ios, '10.0'
 
-pod 'HAHConnect', '~> 1.3'
+pod 'HAHConnect-iOS'
 ```
 
 ## Getting Started
@@ -74,10 +74,9 @@ Swift
 
 import HAHConnect
 
-let config : HAHConfiguration = HAHConfiguration.init(environment: HAHConnectEnvironment.sandbox)
-let connect : HAHConnectSDK = HAHConnectSDK.init(configuration: config)
-connect.startSDKHome()
-
+        let config : Configuration = Configuration.init(environment: HAHConnectEnvironment.sandbox)
+        let connect : HAHConnect = HAHConnect.init(configuration: config)
+        connect.startSDKHome()
 
 Add following keys to Info.plist
 
