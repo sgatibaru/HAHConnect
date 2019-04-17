@@ -1,22 +1,68 @@
 {
-  "name": "HAHConnect",
-  "version": "0.1.0",
+  "name": "HAHConnect-iOS",
+  "version": "0.0.2",
   "summary": "A short description of HAHConnect.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/veer@nextgeni.com/HAHConnect",
+  "homepage": "https://www.myhealthathand.com",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "veer@nextgeni.com": "veer@nextgeni.com"
+    "veer-suthar": "veer@nextgeni.com"
   },
   "source": {
-    "git": "https://github.com/veer@nextgeni.com/HAHConnect.git",
-    "tag": "0.1.0"
+    "http": "https://hahstageimages.s3.eu-west-1.amazonaws.com/hah_cloud/zip/1143504567/hahconnect.zip?version=1555485910"
   },
+  "vendored_frameworks": "HAHConnect.framework",
+  "swift_version": "4.2",
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "HAHConnect/Classes/**/*"
+  "dependencies": {
+    "WebRTC": [
+      "63.11.20455"
+    ],
+    "MDWamp": [
+      "2.2.4"
+    ],
+    "CocoaLumberjack/Swift": [
+      "3.4.2"
+    ],
+    "Cosmos": [
+      "18.0.1"
+    ],
+    "NVActivityIndicatorView": [
+      "4.6.1"
+    ],
+    "Pageboy": [
+      "3.0.2"
+    ],
+    "CryptoSwift": [
+      "0.14.0"
+    ],
+    "Alamofire": [
+      "4.8.1"
+    ],
+    "SwiftyJSON": [
+      "4.2.0"
+    ],
+    "Disk": [
+      "0.4.0"
+    ],
+    "SwiftMessages": [
+      "6.0.2"
+    ],
+    "FirebaseMLVisionTextModel": [
+      "0.15.0"
+    ],
+    "EasyTipView": [
+      "2.0.1"
+    ],
+    "DKImagePickerController": [
+      "4.1.4"
+    ],
+    "SwiftDate": [
+      "6.0.1"
+    ]
+  }
 }

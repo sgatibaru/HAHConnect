@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		00E4211BFD7CCBC840F912E7 /* Pods-HAHConnect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAHConnect_Example.debug.xcconfig"; path = "Target Support Files/Pods-HAHConnect_Example/Pods-HAHConnect_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		16EC04E7E67ECEE718B3CA01 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		1E498DB62D5A62DD4ED6699F /* HAHConnect.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HAHConnect.podspec; path = ../HAHConnect.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1E498DB62D5A62DD4ED6699F /* HAHConnect-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "HAHConnect-iOS.podspec"; path = "../HAHConnect-iOS.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		28883FB97D7C104C5C26D374 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2DAFA17691E3F1AE5EF9C9BF /* Pods-HAHConnect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAHConnect_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HAHConnect_Tests/Pods-HAHConnect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HAHConnect_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HAHConnect_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,7 +141,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				1E498DB62D5A62DD4ED6699F /* HAHConnect.podspec */,
+				1E498DB62D5A62DD4ED6699F /* HAHConnect-iOS.podspec */,
 				28883FB97D7C104C5C26D374 /* README.md */,
 				16EC04E7E67ECEE718B3CA01 /* LICENSE */,
 			);

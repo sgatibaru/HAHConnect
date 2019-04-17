@@ -15,8 +15,8 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = 'HAHConnect'
-    s.version          = '0.0.1'
+    s.name             = 'HAHConnect-iOS'
+    s.version          = '0.0.2'
     s.summary          = 'A short description of HAHConnect.'
     
     # This description is used to generate tags and improve search results.
@@ -35,10 +35,12 @@ Pod::Spec.new do |s|
     s.author           = { 'veer-suthar' => 'veer@nextgeni.com' }
     #https://github.com/veer-suthar/HAHConnectSDK-iOS/raw/master/HAHConnect.zip
     #https://dev-cloud.myhealthathand.com/resources/assets/zip/hahconnect.zip
-    s.source           = { :http => 'https://dev-cloud.myhealthathand.com/resources/assets/zip/hahconnect.zip' }
+    #https://hahstageimages.s3.eu-west-1.amazonaws.com/hah_cloud/zip/hahconnect.zip
     
-    #s.vendored_frameworks = 'HAHConnect.framework'
-    s.vendored_frameworks = 'HAHConnect-0.1.0/HAHConnect.framework'
+    s.source           = { :http => 'https://hahstageimages.s3.eu-west-1.amazonaws.com/hah_cloud/zip/1143504567/hahconnect.zip?version=1555485910' }
+    
+    s.vendored_frameworks = 'HAHConnect.framework'
+    #s.vendored_frameworks = 'HAHConnect/HAHConnect.framework'
     
     
     s.swift_version = '4.2'
@@ -56,14 +58,18 @@ Pod::Spec.new do |s|
     
     s.dependency 'Cosmos', '18.0.1'
     s.dependency 'NVActivityIndicatorView', '4.6.1'
-    s.dependency 'Pageboy', '3.1.0'
-    
+    s.dependency 'Pageboy', '3.0.2'
     
     s.dependency 'CryptoSwift', '0.14.0'
     s.dependency 'Alamofire', '4.8.1'
     s.dependency 'SwiftyJSON', '4.2.0'
     s.dependency 'Disk', '0.4.0'
     s.dependency 'SwiftMessages', '6.0.2'
+    
+    s.dependency 'FirebaseMLVisionTextModel', '0.15.0'
+    s.dependency 'EasyTipView', '2.0.1'
+    s.dependency 'DKImagePickerController', '4.1.4'
+    s.dependency 'SwiftDate', '6.0.1'
     
 end
 
