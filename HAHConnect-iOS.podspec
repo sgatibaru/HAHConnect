@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'veer-suthar' => 'veer@nextgeni.com' }
     
-    s.source = { :http => 'https://hahstageimages.s3.eu-west-1.amazonaws.com/hah_cloud/zip/1538089194/hahconnect.zip?version=1556195124' }
+    s.source = { :http => 'https://hahstageimages.s3.eu-west-1.amazonaws.com/hah_cloud/zip/1393236312/hahconnect.zip?version=1556636400' }
     
     s.vendored_frameworks = 'HAHConnect.framework'
     #s.vendored_frameworks = 'HAHConnect/HAHConnect.framework'
