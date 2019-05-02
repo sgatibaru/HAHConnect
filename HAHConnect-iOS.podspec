@@ -16,7 +16,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'HAHConnect-iOS'
-    s.version          = '0.0.3'
+    s.version          = '0.0.10'
     s.summary          = 'A short description of HAHConnect.'
     
     # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'veer-suthar' => 'veer@nextgeni.com' }
     
-    s.source = { :http => 'https://hahstageimages.s3.eu-west-1.amazonaws.com/hah_cloud/zip/941336994/hahconnect.zip?version=1556114984' }
+    s.source = { :http => 'https://hahstageimages.s3.eu-west-1.amazonaws.com/hah_cloud/zip/415347107/hahconnect.zip?version=1556775313' }
     
     s.vendored_frameworks = 'HAHConnect.framework'
     #s.vendored_frameworks = 'HAHConnect/HAHConnect.framework'

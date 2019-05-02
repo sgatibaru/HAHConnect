@@ -1,6 +1,0 @@
-framework module HAHConnect {
-  umbrella header "HAHConnect-umbrella.h"
-
-  export *
-  module * { export * }
-}
