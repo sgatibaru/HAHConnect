@@ -35,7 +35,6 @@ Pod::Spec.new do |s|
     s.author           = { 'veer-suthar' => 'veer@nextgeni.com' }
     
     s.source = { :http => 'https://hahstageimages.s3.eu-west-1.amazonaws.com/hah_cloud/zip/415347107/hahconnect.zip?version=1556775313' }
-    
     s.vendored_frameworks = 'HAHConnect.framework'
     #s.vendored_frameworks = 'HAHConnect/HAHConnect.framework'
     
@@ -69,6 +68,7 @@ Pod::Spec.new do |s|
     s.dependency 'SwiftDate', '6.0.1'
     
 end
+
 
 
 
