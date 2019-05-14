@@ -74,9 +74,25 @@ Swift
 
 import HAHConnect
 
-        let config : Configuration = Configuration.init(environment: HAHConnectEnvironment.sandbox)
-        let connect : HAHConnect = HAHConnect.init(configuration: config)
-        connect.startSDKHome()
+            let user: [String: Any] = [
+                "first_name": "",
+                "last_name": "",
+                "email": email,
+                "gender": "",
+                "date_of_birth": "",
+                "external_user_id": "",
+                "contract_id": "",
+                "session_id": "",
+                "nextcare_beneficiary_id": "",
+                "mcontract_id": ""
+            ]
+            
+            
+            //PN User Info will be passed if needed, in userInfo, else pass nil
+            //let userInfo: [AnyHashable: Any] = ....
+            
+            let connect : HAHConnect = HAHConnect(configuration: configuration, user: user, userInfo: nil)
+            connect.startSDKHome(controller: self)
 
 Add following keys to Info.plist
 
