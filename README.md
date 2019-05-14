@@ -77,7 +77,7 @@ import HAHConnect
             let user: [String: Any] = [
                 "first_name": "",
                 "last_name": "",
-                "email": email,
+                "email": "",
                 "gender": "",
                 "date_of_birth": "",
                 "external_user_id": "",
@@ -86,7 +86,6 @@ import HAHConnect
                 "nextcare_beneficiary_id": "",
                 "mcontract_id": ""
             ]
-            
             
             //PN User Info will be passed if needed, in userInfo, else pass nil
             //let userInfo: [AnyHashable: Any] = ....
