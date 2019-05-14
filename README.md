@@ -87,7 +87,7 @@ import HAHConnect
                 "mcontract_id": ""
             ]
             
-            //PN User Info will be passed if needed, in userInfo, else pass nil
+            //Push Notification Deeplinking User Info will be passed if needed, in userInfo, else pass nil
             //let userInfo: [AnyHashable: Any] = ....
             
             let connect : HAHConnect = HAHConnect(configuration: configuration, user: user, userInfo: nil)
