@@ -74,6 +74,10 @@ Swift
 
 import HAHConnect
 
+            let phoneNumber: [AnyHashable: Any] = [
+                AnyHashable("code"): "+971",
+                AnyHashable("number"): "123456789"]
+            
             let user: [String: Any] = [
                 "first_name": "",
                 "last_name": "",
@@ -84,10 +88,12 @@ import HAHConnect
                 "contract_id": "",
                 "session_id": "",
                 "nextcare_beneficiary_id": "",
-                "mcontract_id": ""
-            ]
-            
-            //Push Notification Deeplinking User Info will be passed if needed, in userInfo, else pass nil
+                "mcontract_id": "",
+                "country": "United Arab Emirates",
+                "government_id_number": "12312312313",
+                "phone_number": phoneNumber]
+
+             //Push Notification Deeplinking User Info will be passed if needed, in userInfo, else pass nil
             //let userInfo: [AnyHashable: Any] = ....
             
             let connect : HAHConnect = HAHConnect(configuration: configuration, user: user, userInfo: nil)
