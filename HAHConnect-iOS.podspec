@@ -16,7 +16,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'HAHConnect-iOS'
-    s.version          = '0.0.10'
+    s.version          = '0.0.19'
     s.summary          = 'A short description of HAHConnect.'
     
     # This description is used to generate tags and improve search results.
@@ -30,11 +30,12 @@ Pod::Spec.new do |s|
     #DESC
     
     s.homepage         = 'https://www.myhealthathand.com'
+    
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'veer-suthar' => 'veer@nextgeni.com' }
     
-    s.source = { :http => 'https://hahstageimages.s3.eu-west-1.amazonaws.com/hah_cloud/zip/415347107/hahconnect.zip?version=1556775313' }
+    s.source = { :http => 'https://hahstageimages.s3.eu-west-1.amazonaws.com/hah_cloud/zip/795410864/hahconnect.zip?version=795410864' }
     s.vendored_frameworks = 'HAHConnect.framework'
     #s.vendored_frameworks = 'HAHConnect/HAHConnect.framework'
     
@@ -64,8 +65,13 @@ Pod::Spec.new do |s|
     
     s.dependency 'FirebaseMLVisionTextModel', '0.15.0'
     s.dependency 'EasyTipView', '2.0.1'
-    s.dependency 'DKImagePickerController', '4.1.4'
     s.dependency 'SwiftDate', '6.0.1'
+    
+    s.dependency 'ISPageControl', '0.1.0'
+    s.dependency 'WeScan', '1.1.0'
+    s.dependency 'TOCropViewController', '2.4.0'
+    s.dependency 'Kingfisher', '5.4.0'
+    
     
 end
 
